@@ -24,11 +24,11 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 
 - script: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)\TestResults\Coverage\
-  workingDirectory: $(Build.SourcesDirectory)\BuildApp.Web.Tests
+  workingDirectory: $(Build.SourcesDirectory)/BuildApp.Web.Tests
   displayName: 'dotnet test'
 
 - script: dotnet reportgenerator "-reports:$(Build.SourcesDirectory)\TestResults\Coverage\coverage.cobertura.xml" "-targetDir:$(Build.SourcesDirectory)\TestResults\Coverage\Reports" -tag:$(Build.BuildNumber) -reportTypes:htmlInline
-  workingDirectory: $(Build.SourcesDirectory)\BuildApp.Web.Tests
+  workingDirectory: $(Build.SourcesDirectory)/BuildApp.Web.Tests
   displayName: 'dotnet reportgenerator'
 
 - task: PublishCodeCoverageResults@1
