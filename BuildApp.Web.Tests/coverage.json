@@ -1,0 +1,305 @@
+{
+  "BuildApp.Web.dll": {
+    "C:\\Projects\\BuildApp\\BuildApp.Web\\Program.cs": {
+      "BuildApp.Web.Program": {
+        "System.Void BuildApp.Web.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder BuildApp.Web.Program::CreateWebHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\BuildApp\\BuildApp.Web\\Startup.cs": {
+      "BuildApp.Web.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration BuildApp.Web.Startup::get_Configuration()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void BuildApp.Web.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 8,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 46,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void BuildApp.Web.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 27,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 75,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void BuildApp.Web.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "BuildApp.Web.Startup/<>c__DisplayClass5_0": {
+        "System.Void BuildApp.Web.Startup/<>c__DisplayClass5_0::<Configure>b__1(Microsoft.AspNetCore.SpaServices.ISpaBuilder)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 31,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\BuildApp\\BuildApp.Web\\Pages\\Error.cshtml.cs": {
+      "BuildApp.Web.Pages.ErrorModel": {
+        "System.String BuildApp.Web.Pages.ErrorModel::get_RequestId()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean BuildApp.Web.Pages.ErrorModel::get_ShowRequestId()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void BuildApp.Web.Pages.ErrorModel::OnGet()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 20,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\BuildApp\\BuildApp.Web\\Controllers\\SampleDataController.cs": {
+      "BuildApp.Web.Controllers.SampleDataController": {
+        "System.Collections.Generic.IEnumerable`1<BuildApp.Web.Controllers.SampleDataController/WeatherForecast> BuildApp.Web.Controllers.SampleDataController::WeatherForecasts()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 6,
+            "22": 6,
+            "23": 6,
+            "24": 6,
+            "25": 6,
+            "26": 6,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void BuildApp.Web.Controllers.SampleDataController::.cctor()": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1
+          },
+          "Branches": []
+        }
+      },
+      "BuildApp.Web.Controllers.SampleDataController/WeatherForecast": {
+        "System.String BuildApp.Web.Controllers.SampleDataController/WeatherForecast::get_DateFormatted()": {
+          "Lines": {
+            "31": 5
+          },
+          "Branches": []
+        },
+        "System.Int32 BuildApp.Web.Controllers.SampleDataController/WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "32": 5
+          },
+          "Branches": []
+        },
+        "System.String BuildApp.Web.Controllers.SampleDataController/WeatherForecast::get_Summary()": {
+          "Lines": {
+            "33": 5
+          },
+          "Branches": []
+        },
+        "System.Int32 BuildApp.Web.Controllers.SampleDataController/WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "BuildApp.Web.Views.dll": {
+    "C:\\Projects\\BuildApp\\BuildApp.Web\\Pages\\Error.cshtml": {
+      "BuildApp.Web.Pages.Pages_Error/<ExecuteAsync>d__0": {
+        "System.Void BuildApp.Web.Pages.Pages_Error/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
