@@ -23,7 +23,7 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 
-- script: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)\TestResults\Coverage\
+- script: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)/TestResults/Coverage/
   workingDirectory: $(Build.SourcesDirectory)/BuildApp.Web.Tests
   displayName: 'dotnet test'
 
@@ -34,6 +34,6 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'cobertura'
-    summaryFileLocation: $(Build.SourcesDirectory)\TestResults\Coverage\**\coverage.cobertura.xml
-    reportDirectory: $(Build.SourcesDirectory)\TestResults\Coverage\Reports
+    summaryFileLocation: $(Build.SourcesDirectory)/TestResults/Coverage/**/coverage.cobertura.xml
+    reportDirectory: $(Build.SourcesDirectory)/TestResults/Coverage/Reports
     failIfCoverageEmpty: false 
