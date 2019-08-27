@@ -27,7 +27,7 @@ steps:
   workingDirectory: $(Build.SourcesDirectory)/BuildApp.Web.Tests
   displayName: 'dotnet test'
 
-- script: dotnet reportgenerator "-reports:$(Build.SourcesDirectory)\TestResults\Coverage\coverage.cobertura.xml" "-targetDir:$(Build.SourcesDirectory)\TestResults\Coverage\Reports" -tag:$(Build.BuildNumber) -reportTypes:htmlInline
+- script: dotnet reportgenerator "-reports:$(Build.SourcesDirectory)/TestResults/Coverage/coverage.cobertura.xml" "-targetDir:$(Build.SourcesDirectory)/TestResults/Coverage/Reports" -tag:$(Build.BuildNumber) -reportTypes:htmlInline
   workingDirectory: $(Build.SourcesDirectory)/BuildApp.Web.Tests
   displayName: 'dotnet reportgenerator'
 
